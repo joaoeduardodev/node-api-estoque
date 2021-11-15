@@ -1,4 +1,5 @@
-export class Product {
-    name: string;
-    bar_code: string ;
+export default class Product {
+    name: string
+
+    barCode: string
 }

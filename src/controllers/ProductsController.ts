@@ -1,10 +1,8 @@
-import { Product } from "@models/Product";
+import Product from '@models/Product'
 
-
-export class ProductsController {
-
-    get(){
-        const product = new Product();
-    }
-
+export default class ProductsController {
+  principal () {
+    const product = new Product()
+    return product
+  }
 }
